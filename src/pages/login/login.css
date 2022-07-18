@@ -1,0 +1,70 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://th.bing.com/th/id/R.d34234886c3675f5d71691f06b9270fd?rik=ZGVRui9qBJ2JQg&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f2395634%2fimages%2fo-DIARY-facebook.jpg&ehk=3HLfSuADZGyVOXZqzDgT5gUHIHnvNPVRISFLsHwNe%2b4%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 25%;
+    padding:50px 0;
+    color: #4a6175;
+    box-shadow: 1px 1px 30px 2px;
+}
+
+.loginTitle{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.loginForm{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding : 20px 10px;
+    width: 80%;
+}
+
+.loginForm > label{
+    margin: 20px 0 0 0 ;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.loginInput{
+    padding: 10px 10px 10px 0;
+    border: none;
+    border-bottom: 2px solid #64829c;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: coral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}

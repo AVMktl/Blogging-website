@@ -1,0 +1,70 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://cdn.lifehack.org/wp-content/uploads/2016/08/6-Solid-Reasons-Why-You-Should-Keep-A-Diary.jpeg");
+    background-size: cover;
+}
+
+.register-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 25%;
+    padding:50px 0;
+    color: #4a6175;
+    box-shadow: 1px 1px 30px 2px;
+}
+
+.registerTitle{
+    font-size: 50px;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding : 20px 10px;
+    width: 80%;
+}
+
+.registerForm > label{
+    margin: 20px 0 0 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.registerInput{
+    padding: 10px 10px 10px 0;
+    border: none;
+    border-bottom: 2px solid #64829c;
+}
+
+.registerInput:focus{
+    outline: none;
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
